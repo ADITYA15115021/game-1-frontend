@@ -8,6 +8,7 @@ import OnlineGame from "./tic-tac-toe/online";
 import SignUp from "./signup";
 import HomePage from "./homepage";
 import ConnectFour from "./connect/two.jsx";
+import VsComputer from "./tic-tac-toe/vsc.jsx";
 
 
 function App(){
@@ -19,7 +20,7 @@ function App(){
         <Route path="/signup" element={<SignUp/>}></Route>
         <Route path="/tic-tac-toe" element={<Main/>}></Route>
         <Route path="/t-online" element={<OnlineGame/>}></Route>
-        <Route path="/t-vsc"></Route>
+        <Route path="/vs-computer" element={<VsComputer/>}/>
         <Route path="/" element={<HomePage/>} ></Route>
         <Route path="/connect-four" element={<ConnectFour/>}></Route>
        </Routes>

@@ -142,31 +142,20 @@ const getGameStatus = () => {
                  </div> ) ) }
            </div>
 
-          
+          </div>
 
-        </div>
-
-        {winner && (
-          <div className=' flex justify-center'>
-             <button className='w-28 mt-8  rounded-full h-12 bg-green-900 text-white' >PLAY AGAIN</button>
+            {winner && (
+              <div className=' flex justify-center'>
+                <button className='w-28 mt-8  rounded-full h-12 bg-green-900 text-white' >PLAY AGAIN</button>
           </div>  
-           
+            
            )}
 
     </div>
-        
-        
-    </>
+  </>
             
-        
-
-      
-    );
-
-
-  }
-
-  
+ );
+}
 };
 
 export default OnlineGame;

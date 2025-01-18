@@ -20,7 +20,7 @@ export default function Main(){
                         PLAY ONLINE
                     </div>
 
-                     <div className="border m-2 px-8 flex items-center justify-center
+                     <div onClick={()=>{navigate("/vs-computer")}} className="border m-2 px-8 flex items-center justify-center
                                     hover:scale-105 hover:bg-red-400 transition-all bg-red-100">VS COMPUTER</div>
                  
                  </div>
